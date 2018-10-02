@@ -1,5 +1,6 @@
 body {
     background-color: #fff;
+    font-family: arial,sans-serif;
 }
 
 .center {
@@ -7,6 +8,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* Main content */
 
 .logo {
     padding-top: 109px;
@@ -54,4 +58,11 @@ body {
     border: 1px solid #c6c6c6;
     border-radius: 2px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Nav bar */ 
+
+li {
+    display: inline;
+    margin: 10px;
 }
