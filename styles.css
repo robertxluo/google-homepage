@@ -5,7 +5,7 @@ body {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 .center {
@@ -67,9 +67,19 @@ body {
 
 /* Nav bar */ 
 
-li {
+nav {
+    margin: 5px 5px 5px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.top-left-buttons {
+    margin-left: -15px;
+}
+
+.top-left-buttons > li {
     display: inline;
-    margin: 7px 10px 0 0;
+    margin: 7px 14px 0 0;
 }
 
 a {
@@ -81,4 +91,55 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.top-right-buttons {
+    margin-top: 10px;
+    padding: 0 25px;
+}
+
+.top-right-buttons > li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.square-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(images/google-icons.png);
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    height: 30px;
+    width: 30px;
+    opacity: .55;
+}
+
+.square-icon:hover {
+    opacity: 1;
+}
+
+.notification-icon  {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,.55);
+    background-image: url(images/google-icons.png);
+    background-size: 528px 68px;
+    background-position: -194px -21px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.notification-icon:hover {
+    background-color: rgba(0,0,0);
+}
+
+.avatar {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(images/avatar.png);
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }
