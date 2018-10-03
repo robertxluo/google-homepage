@@ -8,6 +8,11 @@ body {
     vertical-align: baseline;
 }
 
+.container {
+    min-height: 100%;
+    position: relative;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -162,15 +167,20 @@ nav {
 /* Footer */
 
 footer {
-    margin: 5px 5px 5px 0px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
-
     align-items: flex-end;
+    position: absolute;
+    font-size: 10px;
+    height: 35px;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    background: #f2f2f2;
 }
 
 .bottom-left-buttons {
-    margin-left: -15px;
+    flex: 1;
 }
 
 .bottom-left-buttons > li {
@@ -179,11 +189,13 @@ footer {
 }
 
 .bottom-right-buttons {
-    margin-top: 10px;
-    padding: 0 25px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
 }
 
 .bottom-right-buttons > li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 25px;
 }
