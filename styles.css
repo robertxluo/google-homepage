@@ -45,6 +45,10 @@ a:hover {
     border: 0;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
     outline: none;
+    background-image: url(images/mic-icon.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: 585px 15px;
 }
 
 .search-box:hover {
