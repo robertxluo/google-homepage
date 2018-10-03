@@ -157,3 +157,33 @@ nav {
     height: 32px;
     border-radius: 50%;
 }
+
+
+/* Footer */
+
+footer {
+    margin: 5px 5px 5px 0px;
+    display:flex;
+    justify-content: space-between;
+
+    align-items: flex-end;
+}
+
+.bottom-left-buttons {
+    margin-left: -15px;
+}
+
+.bottom-left-buttons > li {
+    display: inline;
+    margin: 7px 14px 0 0;
+}
+
+.bottom-right-buttons {
+    margin-top: 10px;
+    padding: 0 25px;
+}
+
+.bottom-right-buttons > li {
+    display: inline;
+    margin-right: 10px;
+}
